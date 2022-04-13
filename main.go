@@ -1,5 +1,13 @@
 package main
 
+import (
+	"fmt"
+
+	"github.com/matt-d-nelson/GoPractice/practice"
+)
+
 func main() {
-	fmt.Println("hello world")
+	practice.HelloWorld()
+	fmt.Println(practice.Solution("mynameismatt"))
+
 }
