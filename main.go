@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	comicMischief "github.com/matt-d-nelson/GoPractice/codeAcademy"
+	"github.com/matt-d-nelson/GoPractice/bankHeist"
+	comicMischief "github.com/matt-d-nelson/GoPractice/comicMischief"
 	"github.com/matt-d-nelson/GoPractice/practice"
 )
 
@@ -11,4 +12,5 @@ func main() {
 	practice.HelloWorld()
 	fmt.Println(practice.Solution("mynameismatt"))
 	comicMischief.PrintComics()
+	bankHeist.RunHeist()
 }
