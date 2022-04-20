@@ -13,4 +13,5 @@ func main() {
 	fmt.Println(practice.Solution("mynameismatt"))
 	comicMischief.PrintComics()
 	bankHeist.RunHeist()
+	interstellarTravel.FlyToVenus()
 }
